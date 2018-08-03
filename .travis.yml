@@ -8,9 +8,7 @@ env:
   global:
     - PLUGIN_NAME=CakeBasicFunctions
     - REQUIRE=""
-
-  matrix:
-    - CAKE_VERSION=2.10.11
+    - CAKE_REF=2.6.12
 
 matrix:
   include:
