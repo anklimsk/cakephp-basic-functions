@@ -1,4 +1,6 @@
 # CakePHP 2.x Basic functions plugin
+[![Build Status](https://travis-ci.com/anklimsk/cakephp-basic-functions.svg?branch=master)](https://travis-ci.com/anklimsk/cakephp-basic-functions)
+
 Global basic utilities for the CakePHP application
 
 ## This plugin provides next features:
