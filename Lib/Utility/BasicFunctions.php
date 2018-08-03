@@ -138,6 +138,7 @@ if (!function_exists('mb_ucfirst')) {
      * @param string $encoding The character encoding. If it is omitted, the internal character
      *  encoding value will be used.
      * @return string Returns the resulting string.
+     * @author zneak
      * @link http://stackoverflow.com/a/2518021
      */
     function mb_ucfirst($string, $encoding = 'UTF-8')
@@ -176,8 +177,8 @@ if (!function_exists('GuidToString')) {
      *
      * @param string $ADguid GUID as binary string.
      * @return string Return formatted GUID without brackets.
-     * @link https://www.null-byte.org/development/php-active-directory-ldap-authentication/,
-     *  http://stackoverflow.com/a/25344979
+     * @author Antti Hurme
+     * @link https://www.null-byte.org/development/php-active-directory-ldap-authentication/
      */
     function GuidToString($ADguid)
     {
@@ -295,6 +296,7 @@ if (!function_exists('mb_str_pad')) {
      * @param string $pad_str The symbol for addition to the length.
      * @param int $dir Direction for additions.
      * @return string Returns the padded string.
+     * @author K-Gun
      * @link http://stackoverflow.com/a/14773775
      */
     function mb_str_pad($str, $pad_len, $pad_str = ' ', $dir = STR_PAD_RIGHT)
@@ -341,6 +343,7 @@ if (!function_exists('unichr')) {
      *
      * @param int $u Code of char
      * @return char Return unicode char.
+     * @author Madara Uchiha
      * @link http://stackoverflow.com/a/9878531
      */
     function unichr($u)
@@ -355,6 +358,7 @@ if (!function_exists('isAssoc')) {
      *
      * @param array $arr Array to check
      * @return bool Return True, if array is associated. Otherwise return False.
+     * @author zanderwar
      * @link http://stackoverflow.com/a/173479
      */
     function isAssoc($arr)
@@ -369,6 +373,7 @@ if (!function_exists('isBinary')) {
      *
      * @param string $str String to check
      * @return bool Return True, if string is binary. Otherwise return False.
+     * @author mpen
      * @link http://stackoverflow.com/a/25344979
      */
     function isBinary($str)
