@@ -4,6 +4,7 @@
 Global basic utilities for the CakePHP application
 
 ## This plugin provides next features:
+
 - Getting array of constants value with name `constsToWords()`;
 - Getting array of constants values by prefix `constsVals()`;
 - Getting name of constant by prefix and value `constValToLcSingle()`;
@@ -18,6 +19,7 @@ Global basic utilities for the CakePHP application
 - Checking string is binary `isBinary()`.
 
 ## Installation
+
 1. Download this plugin and place in `app/Plugin/CakeBasicFunctions`.
 2. Add the next line to the end of the file `app/Config/bootstrap.php`:
 ```php
