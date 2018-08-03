@@ -16,5 +16,8 @@ Global basic utilities for the CakePHP application
 - Checking string is binary (isBinary).
 
 ## Installation
-1. Download this plugin and place in "app/Plugin/CakeBasicFunctions".
-2. Add the line "CakePlugin::load('CakeBasicFunctions', ['bootstrap' => true]);" to the end of the file "app/Config/bootstrap.php".
+1. Download this plugin and place in `app/Plugin/CakeBasicFunctions`.
+2. Add the next line to the end of the file `app/Config/bootstrap.php`:
+```php
+CakePlugin::load('CakeBasicFunctions', ['bootstrap' => true]);
+```
