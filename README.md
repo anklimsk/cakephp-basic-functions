@@ -10,7 +10,7 @@ Global basic utilities for the CakePHP application
 - Checking whether the string is GUID `isGuid()`;
 - Getting readable GUID from binary string LDAP `GuidToString()`;
 - Getting GUID for LDAP query from readable GUID string `GuidStringToLdap()`;
-- Analog of PHP function "str_pad" for using unicode `mb_str_pad()`;
+- Analog of PHP function `str_pad()` for using unicode `mb_str_pad()`;
 - Getting unicode char by its code `unichr()`;
 - Checking whether the array is zero-indexed and sequential `isAssoc()`;
 - Checking string is binary `isBinary()`.
