@@ -18,7 +18,7 @@ matrix:
         - CODECOVERAGE=1
     - php: 7.1
       env:
-        - PHPCS=1
+        - FOC_VALIDATE=1
 
 before_script:
   - git clone -b master https://github.com/FriendsOfCake/travis.git --depth 1 ../travis
