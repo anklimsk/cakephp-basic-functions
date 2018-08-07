@@ -16,7 +16,8 @@ Global basic utilities for the CakePHP application
 - Analog of PHP function `str_pad()` for using unicode `mb_str_pad()`;
 - Getting unicode char by its code `unichr()`;
 - Checking whether the array is zero-indexed and sequential `isAssoc()`;
-- Checking string is binary `isBinary()`.
+- Checking string is binary `isBinary()`;
+- Getting information about the current language of the UI and converting it.
 
 ## Installation
 
@@ -25,3 +26,7 @@ Global basic utilities for the CakePHP application
 ```php
 CakePlugin::load('CakeBasicFunctions', ['bootstrap' => true]);
 ```
+
+## Using
+
+[Using this plugin](docs/USING.md)
