@@ -11,7 +11,7 @@
 
 App::import(
     'Vendor',
-    'CakeTheme.langcode-conv',
+    'CakeBasicFunctions.langcode-conv',
     ['file' => 'langcode-conv' . DS . 'autoload.php']
 );
 
