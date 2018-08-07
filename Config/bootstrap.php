@@ -23,6 +23,7 @@ if (!defined('CAKE_BASIC_FUNC_CACHE_KEY_LANG_CODE')) {
     define('CAKE_BASIC_FUNC_CACHE_KEY_LANG_CODE', 'cake_basic_func_lang_code');
 }
 
+$prefix = Inflector::slug(App::pluginPath('CakeBasicFunctions'));
 /**
 * Configuration the cache for store language code
 *
