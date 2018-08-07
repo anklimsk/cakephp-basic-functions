@@ -95,7 +95,7 @@ class Language
         }
 
         $cachePath = 'lang_code_info_' . md5(serialize(func_get_args()));
-        $cached = Cache::read($cachePath, CAKE_THEME_CACHE_KEY_LANG_CODE);
+        $cached = Cache::read($cachePath, CAKE_BASIC_FUNC_CACHE_KEY_LANG_CODE);
         if (!empty($cached)) {
             return $cached;
         }
@@ -103,7 +103,7 @@ class Language
         $langCode = mb_strtolower($langCode);
         $this->options->setOutput($output);
         $result = (string)$this->converter->filter($langCode);
-        Cache::write($cachePath, $result, CAKE_THEME_CACHE_KEY_LANG_CODE);
+        Cache::write($cachePath, $result, CAKE_BASIC_FUNC_CACHE_KEY_LANG_CODE);
 
         return $result;
     }
@@ -118,7 +118,7 @@ class Language
     public function getLangForNumberText($langCode = null)
     {
         $cachePath = 'lang_code_number_name_' . md5(serialize(func_get_args()));
-        $cached = Cache::read($cachePath, CAKE_THEME_CACHE_KEY_LANG_CODE);
+        $cached = Cache::read($cachePath, CAKE_BASIC_FUNC_CACHE_KEY_LANG_CODE);
         if (!empty($cached)) {
             return $cached;
         }
@@ -168,7 +168,7 @@ class Language
             $result = $locales[$langUI];
         }
 
-        Cache::write($cachePath, $result, CAKE_THEME_CACHE_KEY_LANG_CODE);
+        Cache::write($cachePath, $result, CAKE_BASIC_FUNC_CACHE_KEY_LANG_CODE);
 
         return $result;
     }
