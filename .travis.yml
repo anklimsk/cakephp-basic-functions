@@ -19,6 +19,7 @@ matrix:
     - php: 7.1
       env:
         - PHPCS=1
+        - PHPCS_IGNORE=Plugin/CakeExtendTest/
     - php: 7.1
       env:
         - FOC_VALIDATE=1
