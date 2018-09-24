@@ -184,15 +184,15 @@ class BasicFunctionsTest extends AppCakeTestCase {
 		$dataArrayVal = ['test'];
 		$params = [
 			[
-				$dataArray, // $data
+				&$dataArray, // $data
 				'', // $domain
 			],
 			[
-				$dataArrayVal, // $data
+				&$dataArrayVal, // $data
 				'', // $domain
 			],
 			[
-				$dataArrayVal, // $data
+				&$dataArrayVal, // $data
 				'test', // $domain
 			],
 		];
