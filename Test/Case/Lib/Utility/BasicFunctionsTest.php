@@ -182,6 +182,7 @@ class BasicFunctionsTest extends AppCakeTestCase {
 	public function testTranslArray() {
 		$dataArray = [];
 		$dataArrayVal = ['test'];
+		// @codingStandardsIgnoreStart
 		$params = [
 			[
 				&$dataArray, // $data
@@ -196,6 +197,7 @@ class BasicFunctionsTest extends AppCakeTestCase {
 				'test', // $domain
 			],
 		];
+		// @codingStandardsIgnoreEnd
 		$expected = [
 			false,
 			false,
