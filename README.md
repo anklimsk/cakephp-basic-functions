@@ -23,9 +23,10 @@ Global basic utilities for the CakePHP application
 
 1. Install the Plugin using composer: `composer require anklimsk/cakephp-basic-functions`
 2. Add the next line to the end of the file `app/Config/bootstrap.php`:
-```php
-CakePlugin::load('CakeBasicFunctions', ['bootstrap' => true]);
-```
+
+   ```php
+   CakePlugin::load('CakeBasicFunctions', ['bootstrap' => true]);
+   ```
 
 ## Using
 
