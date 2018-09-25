@@ -1,2 +1,2 @@
 fixes:
-  - "Plugin/CakeBasicFunctions/::"
+  - "/home/travis/build/anklimsk/cakephp/app/Plugin/CakeBasicFunctions/::"
