@@ -35,6 +35,7 @@ script:
 
 after_success:
   - if [ -f "../cakephp/app/Plugin/CakeBasicFunctions/.codecov.yml" ]; then cp ../cakephp/app/Plugin/CakeBasicFunctions/.codecov.yml ../cakephp; fi
+  - ls -l ../cakephp/app/Plugin/CakeBasicFunctions
   - ls -l ../cakephp
   - ../travis/after_success.sh
 
