@@ -1,5 +1,8 @@
 # CakePHP 2.x Basic functions plugin
 [![Build Status](https://travis-ci.com/anklimsk/cakephp-basic-functions.svg?branch=master)](https://travis-ci.com/anklimsk/cakephp-basic-functions)
+[![Coverage Status](https://codecov.io/gh/anklimsk/cakephp-basic-functions/branch/master/graph/badge.svg)](https://codecov.io/gh/anklimsk/cakephp-basic-functions)
+[![Latest Stable Version](https://poser.pugx.org/anklimsk/cakephp-basic-functions/version)](https://packagist.org/packages/anklimsk/cakephp-basic-functions)
+[![License](https://poser.pugx.org/anklimsk/cakephp-basic-functions/license)](https://packagist.org/packages/anklimsk/cakephp-basic-functions)
 
 Global basic utilities for the CakePHP application
 
