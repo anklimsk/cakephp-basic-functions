@@ -322,38 +322,38 @@ class BasicFunctionsTest extends AppCakeTestCase {
 		$params = [
 			[
 				'', // $str
-				1, // $pad_len
-				'*', // $pad_str
+				1, // $padLen
+				'*', // $padStr
 				STR_PAD_RIGHT, // $dir
 			],
 			[
 				'test', // $str
-				3, // $pad_len
-				'', // $pad_str
+				3, // $padLen
+				'', // $padStr
 				STR_PAD_RIGHT, // $dir
 			],
 			[
 				'test', // $str
-				3, // $pad_len
-				'*', // $pad_str
+				3, // $padLen
+				'*', // $padStr
 				STR_PAD_RIGHT, // $dir
 			],
 			[
 				'test', // $str
-				6, // $pad_len
-				'*', // $pad_str
+				6, // $padLen
+				'*', // $padStr
 				STR_PAD_RIGHT, // $dir
 			],
 			[
 				'test', // $str
-				6, // $pad_len
-				'*', // $pad_str
+				6, // $padLen
+				'*', // $padStr
 				STR_PAD_LEFT, // $dir
 			],
 			[
 				'test', // $str
-				8, // $pad_len
-				'*', // $pad_str
+				8, // $padLen
+				'*', // $padStr
 				STR_PAD_BOTH, // $dir
 			],
 		];
