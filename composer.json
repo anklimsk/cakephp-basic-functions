@@ -12,7 +12,7 @@
     "require": {
         "php": ">=5.4",
         "composer/installers": "^1.5.0",
-        "anklimsk/cakephp-extended-test": "^0.8.1"
+        "anklimsk/cakephp-extended-test": "^1.0"
     },
     "support": {
         "source": "https://github.com/anklimsk/cakephp-basic-functions"
@@ -20,7 +20,7 @@
     "extra": {
         "installer-name": "CakeBasicFunctions",
         "branch-alias": {
-            "dev-master": "0.4.x-dev"
+            "dev-master": "1.x-dev"
         }
     }
 }
