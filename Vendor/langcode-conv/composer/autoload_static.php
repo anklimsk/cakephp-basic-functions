@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit51a2b6dbd6017588d6f9203e9a92d89f
+class ComposerStaticInitacc2b64b9d37f4c1365d85c46b822ac2
 {
     public static $prefixLengthsPsr4 = array (
         'Z' => 
@@ -31,20 +31,18 @@ class ComposerStaticInit51a2b6dbd6017588d6f9203e9a92d89f
         'Conversio\\' => 
         array (
             0 => __DIR__ . '/..' . '/leodido/conversio/library',
-            1 => __DIR__ . '/..' . '/leodido/langcode-conv/library',
         ),
         'ConversioTest\\' => 
         array (
             0 => __DIR__ . '/..' . '/leodido/conversio/tests',
-            1 => __DIR__ . '/..' . '/leodido/langcode-conv/tests',
         ),
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit51a2b6dbd6017588d6f9203e9a92d89f::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit51a2b6dbd6017588d6f9203e9a92d89f::$prefixDirsPsr4;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitacc2b64b9d37f4c1365d85c46b822ac2::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitacc2b64b9d37f4c1365d85c46b822ac2::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }

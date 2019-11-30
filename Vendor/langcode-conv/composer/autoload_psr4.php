@@ -8,6 +8,6 @@ $baseDir = dirname($vendorDir);
 return array(
     'Zend\\Stdlib\\' => array($vendorDir . '/zendframework/zend-stdlib/src'),
     'Zend\\Filter\\' => array($vendorDir . '/zendframework/zend-filter/src'),
-    'Conversio\\' => array($vendorDir . '/leodido/conversio/library', $vendorDir . '/leodido/langcode-conv/library'),
-    'ConversioTest\\' => array($vendorDir . '/leodido/conversio/tests', $vendorDir . '/leodido/langcode-conv/tests'),
+    'Conversio\\' => array($vendorDir . '/leodido/conversio/library'),
+    'ConversioTest\\' => array($vendorDir . '/leodido/conversio/tests'),
 );
