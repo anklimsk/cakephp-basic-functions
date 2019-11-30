@@ -22,12 +22,12 @@ class Callback extends AbstractFilter
     ];
 
     /**
-     * @param callable|array|string|Traversable $callbackOrOptions
+     * @param callable|array|Traversable $callbackOrOptions
      * @param array $callbackParams
      */
     public function __construct($callbackOrOptions = [], $callbackParams = [])
     {
-        if (is_callable($callbackOrOptions) || is_string($callbackOrOptions)) {
+        if (is_callable($callbackOrOptions)) {
             $this->setCallback($callbackOrOptions);
             $this->setCallbackParams($callbackParams);
         } else {
@@ -44,11 +44,7 @@ class Callback extends AbstractFilter
      */
     public function setCallback($callback)
     {
-        if (is_string($callback) && class_exists($callback)) {
-            $callback = new $callback();
-        }
-
-        if (! is_callable($callback)) {
+        if (!is_callable($callback)) {
             throw new Exception\InvalidArgumentException(
                 'Invalid parameter for callback: must be callable'
             );
